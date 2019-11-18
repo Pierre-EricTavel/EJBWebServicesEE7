@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" >
+
+    <xs:element name="laClasseGenere" type="laClasseGenere" />
+ 
+    <xs:complexType name="laClasseGenere"> 
+        <xs:sequence>
+             <xs:element name="prenom" type="xs:string" minOccurs="0"/>
+             <xs:element name="naissance" type="xs:date" minOccurs="0" />
+            <xs:element name="taille" type="xs:float"/>
+        </xs:sequence> 
+        <xs:attribute name="nom" type="xs:string"/>
+    </xs:complexType>
+</xs:schema>
+

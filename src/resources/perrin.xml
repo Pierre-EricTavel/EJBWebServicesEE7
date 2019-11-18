@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<laClasseGenere nom="perrin" >
+    <prenom>marc</prenom>
+    <date_naissance>2012-12-10Z</date_naissance>
+    <taille>170.0</taille>
+</laClasseGenere>
